@@ -30,7 +30,7 @@ sudo apt install mariadb-server mariadb-client
 sudo mysql_secure_installation
 
 echo -e "$Cian \n Installando PHP & Requirements $resetear_color"
-sudo apt install php7.2 libapache2-mod-php7.2 php7.2-mysql php-common php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline -y
+sudo apt-get install libapache2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pear php-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.0-xsl -y
 
 echo -e "$Cian \n Installando phpMyAdmin $resetear_color"
 sudo apt-get install phpmyadmin -y
