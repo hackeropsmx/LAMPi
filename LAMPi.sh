@@ -17,6 +17,7 @@ Amarillo='\033[0;33m'
 Purpura='\033[0;35m'
 Cian='\033[0;36m'
 
+
 # actualizar paquetes y actaulizar sistema
 echo -e "$Cian \n Actualizando Sistema.... $resetear_color"
 sudo sed -i 's/deb cdrom/#deb cdrom/' /etc/apt/sources.list
@@ -31,13 +32,13 @@ sudo apt install mariadb-server mariadb-client
 sudo mysql_secure_installation
 
 echo -e "$Cian \n Installando PHP & Requirements $resetear_color"
-sudo apt-get install libapache2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pear php-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.0-xsl -y
+sudo apt-get install php php-common libapache2-mod-php php-curl php-dev php-gd php-gettext php-imagick php-intl php-mbstring php-mysql php-pear php-pspell php-recode php-xml php-zip -y
 
 echo -e "$Cian \n Installando phpMyAdmin $resetear_color"
 sudo apt-get install phpmyadmin -y
 
 echo -e "$Cian \n Verificando instalacion $resetear_color"
-sudo apt-get install apache2 apache2-utils libexpat1 ssl-cert libapache2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pear php-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.0-xsl -y
+sudo apt-get install apache2 apache2-utils libexpat1 ssl-cert libapache2-mod-php php php-common php-curl php-dev php-gd php-pear php-imagick  php-mysql php-ps php7.2-xsl -y
 
 ## TWEAKS
 # Permisos
