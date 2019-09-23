@@ -1,10 +1,41 @@
-#!/bin/sh
-
+#!/bin/bash
 #######################################
 # script para la instalacion de AMP y PHPMyAdmin con algunos tweaks.
 #diseñado para sistemas basados en Debian.
 # elaborado por @Hacker Ops http://hackerops.com
 # #######################################
+
+
+printf "\e[1;97m \e[0m\n"
+printf "\e[1;97m                                                     *.::*            \e[0m\n"
+printf "\e[1;97m                                              *-/+sydmmmmh*           \e[0m\n"
+printf "\e[1;97m                                         */shmNNNNNNNMMNNNd:          \e[0m\n"
+printf "\e[1;97m                                         -NMMMMMMMMMMMMMMNNNdys+-     \e[0m\n"
+printf "\e[1;97m                                          dMMMMMMMMMMMMMMMNNNNNNNd+*  \e[0m\n"
+printf "\e[1;97m                                       */omNMMMMMMMMMMMMMMNNh:dMMMNd* \e[0m\n"
+printf "\e[1;97m                                      +mNNNNNMMMMMMMMMMNmdo.**hMMMMM+ \e[0m\n"
+printf "\e[1;97m                                      mNNMM\e[0m\\e[0;30m+/osyyyhdddhysso+sm\e[0m\e[1;97mMMMMMN-\e[0m\e[1;77m\e[0m\n"
+printf "\e[1;97m                                      :mNMMmo:..*.+hhhddmNNMMMMMMMd:  \e[0m\n"
+printf "\e[1;97m/ddddds                 ****         *+hmNMNNmmmNNMMMMMMMMMMMmy:*   \e[0m\n"
+printf "\e[1;97m+MMMMMh            *:oydmmmmdy- *ddddhhyyyhhdmmNNNNNNNNNmds+-*      \e[0m\n"
+printf "\e[1;97m+MMMMMh           /dNMMMMMMMMM: *MMMMMMMNNmdhhhyy...syyyho          \e[0m\n"
+printf "\e[1;97m+MMMMMh          oMMMMMmhyyhdd  *mmmmmMMMMMNddddh   mNNNMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh         .MMMMMy.    *.   *****NMMMMh*****   NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh         :MMMMM+               NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh         *NMMMMNs-*            NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh          :mMMMMMNdo-*         NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh           .sNMMMMMMNh:        NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh             .+hNMMMMMMo       NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh                .oNMMMMM:      NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh                  -MMMMMy      NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh                  .MMMMMs      NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMmooooooo:  hs+/::/sNMMMMN.      NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMMMMMMMMMy :MMMMMMMMMMMMd.       NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMMMMMMMMMy +NMMMMMMMMms:         NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m.............   *--::-.*            .....*        .....*          \e[0m\n"
+printf "\e[1;77m.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.\e[0m\n"
+printf "\e[1;77m.:::::\e[1;4;97mLicenciatura en Seguridad en Tecnologias de la informacion\e[0m\e[1;77m:::::.\e[0m\n"
+printf "\e[1;77m.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.\e[0m\n"
 
 #COLORES
 # Reseteo de colores
