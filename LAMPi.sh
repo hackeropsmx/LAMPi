@@ -69,7 +69,7 @@ echo -e "$Cian \n Installando phpMyAdmin (requiere interaccion) $resetear_color"
 sudo apt-get install phpmyadmin -y
 
 echo -e "$Cian \n Verificando instalacion $resetear_color"
-sudo apt-get install apache2 apache2-utils libexpat1 ssl-cert libapache2-mod-php php php-common php-curl php-dev php-gd php-pear php-imagick  php-mysql php-ps php7.2-xsl -y
+sudo apt-get install apache2 apache2-utils libexpat1 ssl-cert libapache2-mod-php php php-common php-curl php-dev php-gd php-pear php-imagick  php-mysql php-ps php7.4-xsl -y
 
 ## TWEAKS
 # Permisos
@@ -77,7 +77,7 @@ echo -e "$Cian \n Permisos para /var/www $resetear_color"
 sudo chown -R www-data:www-data /var/www
 echo -e "$Verde \n Los permisos se han establecido $resetear_color"
 
-Habilitar Mod Rewrite, requerido para enlaces permanentes de WordPress y archivos .htaccess
+#Habilitar Mod Rewrite, requerido para enlaces permanentes de WordPress y archivos .htaccess
 echo -e "$Cian \n habilitando Modulos $resetear_color"
 sudo a2enmod rewrite
 #sudo php5enmod mcrypt
@@ -85,3 +85,34 @@ sudo a2enmod rewrite
 # Reiniciar Apache
 echo -e "$Cian \n Restarting Apache $resetear_color"
 sudo service apache2 restart
+
+printf "\e[1;97m \e[0m\n"
+printf "\e[1;97m                                                     *.::*            \e[0m\n"
+printf "\e[1;97m                                              *-/+sydmmmmh*           \e[0m\n"
+printf "\e[1;97m                                         */shmNNNNNNNMMNNNd:          \e[0m\n"
+printf "\e[1;97m                                         -NMMMMMMMMMMMMMMNNNdys+-     \e[0m\n"
+printf "\e[1;97m                                          dMMMMMMMMMMMMMMMNNNNNNNd+*  \e[0m\n"
+printf "\e[1;97m                                       */omNMMMMMMMMMMMMMMNNh:dMMMNd* \e[0m\n"
+printf "\e[1;97m                                      +mNNNNNMMMMMMMMMMNmdo.**hMMMMM+ \e[0m\n"
+printf "\e[1;97m                                      mNNMM\e[0m\\e[0;30m+/osyyyhdddhysso+sm\e[0m\e[1;97mMMMMMN-\e[0m\e[1;77m\e[0m\n"
+printf "\e[1;97m                                      :mNMMmo:..*.+hhhddmNNMMMMMMMd:  \e[0m\n"
+printf "\e[1;97m/ddddds                 ****         *+hmNMNNmmmNNMMMMMMMMMMMmy:*   \e[0m\n"
+printf "\e[1;97m+MMMMMh            *:oydmmmmdy- *ddddhhyyyhhdmmNNNNNNNNNmds+-*      \e[0m\n"
+printf "\e[1;97m+MMMMMh           /dNMMMMMMMMM: *MMMMMMMNNmdhhhyy...syyyho          \e[0m\n"
+printf "\e[1;97m+MMMMMh          oMMMMMmhyyhdd  *mmmmmMMMMMNddddh   mNNNMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh         .MMMMMy.    *.   *****NMMMMh*****   NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh         :MMMMM+               NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh         *NMMMMNs-*            NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh          :mMMMMMNdo-*         NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh           .sNMMMMMMNh:        NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh             .+hNMMMMMMo       NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh                .oNMMMMM:      NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh                  -MMMMMy      NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMh                  .MMMMMs      NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMmooooooo:  hs+/::/sNMMMMN.      NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMMMMMMMMMy :MMMMMMMMMMMMd.       NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m+MMMMMMMMMMMMMy +NMMMMMMMMms:         NMMMMh        NMMMMh          \e[0m\n"
+printf "\e[1;97m.............   *--::-.*            .....*        .....*          \e[0m\n"
+printf "\e[1;77m.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.\e[0m\n"
+printf "\e[1;77m.:::::\e[1;4;97mLicenciatura en Seguridad en Tecnologias de la informacion\e[0m\e[1;77m:::::.\e[0m\n"
+printf "\e[1;77m.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.\e[0m\n"
