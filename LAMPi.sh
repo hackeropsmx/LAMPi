@@ -82,10 +82,12 @@ echo -e "$Cian \n habilitando Modulos $resetear_color"
 sudo a2enmod rewrite
 #sudo php5enmod mcrypt
 
-# Reiniciar Apache
-echo -e "$Cian \n Restarting Apache $resetear_color"
+#Reiniciar Apache
+echo -e "$Cian \n Reiniciando Apache $resetear_color"
 sudo service apache2 restart
 
+echo -e "$Cian \n Hackerops $resetear_color"
+# LEYENDA LSTI
 printf "\e[1;97m \e[0m\n"
 printf "\e[1;97m                                                     *.::*            \e[0m\n"
 printf "\e[1;97m                                              *-/+sydmmmmh*           \e[0m\n"
